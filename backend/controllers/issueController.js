@@ -14,13 +14,13 @@ const deleteIssueById = (req, res) => {
   res.send("Issue deleted");
 };
 
-const getAllIssued = (req, res) => {
+const getAllIssues = (req, res) => {
   res.send("Issue fetchd all");
 };
 
 module.exports = {
   createIssue,
-  getAllIssued,
+  getAllIssues,
   getIssueById,
   deleteIssueById,
   updateIssueById,
